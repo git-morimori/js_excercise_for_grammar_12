@@ -58,8 +58,8 @@ tweets.forEach((tweet, index) => {
     console.log('ユーザー名：　', tweet.username);
     console.log('ツイート：　', tweet.text);
 
-    const tweetRplis = tweet.replies
-    tweetRplis.forEach((repli, index) => {
+    const tweetRplies = tweet.replies;
+    tweetRplies.forEach((repli, index) => {
         console.log(`-----------------返信${index}----------------------`);
         console.log('ユーザー名：　', repli.username);
         console.log('ツイート：　', repli.text);
